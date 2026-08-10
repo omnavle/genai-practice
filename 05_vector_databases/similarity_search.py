@@ -12,3 +12,15 @@ vector_store = Chroma(
     embedding_function=embedding_model,
     persist_directory="./chroma_db"
 )
+
+query = "What is used to build AI applications?"
+
+results = vector_store.similarity_search(
+    query,
+    k=2
+)
+
+for i, document in enumerate(results):
+    print(f"\nResult {i + 1}:")
+    print(document.page_content)
+    print("Metadata:", document.metadata)
