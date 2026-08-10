@@ -1,0 +1,5 @@
+LangChain is a framework for developing applications powered by language models.
+
+RAG stands for Retrieval Augmented Generation. RAG retrieves relevant information from a knowledge base and provides it to a language model.
+
+ChromaDB is a vector database that can store embeddings and perform similarity searches.
