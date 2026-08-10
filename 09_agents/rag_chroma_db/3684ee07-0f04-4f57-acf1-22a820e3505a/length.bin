@@ -1,0 +1,7 @@
+LangChain is a framework for building applications powered by large language models.
+
+LangGraph is a framework for building stateful and multi-step AI workflows.
+
+ChromaDB is a vector database used to store embeddings and perform similarity search.
+
+RAG stands for Retrieval Augmented Generation. RAG retrieves relevant information from documents and provides it to an LLM to generate a grounded answ
