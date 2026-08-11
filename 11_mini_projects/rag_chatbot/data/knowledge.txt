@@ -1,0 +1,7 @@
+LangGraph is a framework for building stateful, multi-step applications with LLMs.
+
+LangChain is a framework that provides tools and abstractions for developing applications powered by language models.
+
+RAG stands for Retrieval-Augmented Generation. It retrieves relevant information from a knowledge base and provides that information to an LLM as context.
+
+ChromaDB is a vector database used to store and search embeddings.
